@@ -1,0 +1,98 @@
+@import "reset";
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: $clr-black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: $clr-black;
+  border-top: 5px solid $clr-black;
+  background: $clr-palegrey;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+small {
+  font-size: 14px;
+}
+
+@media (min-width: 370px) {
+  body {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+
+  small {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2,
+  h3 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 18.5px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 29px;
+  }
+}

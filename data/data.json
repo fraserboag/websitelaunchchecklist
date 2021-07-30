@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Content",
+    "listItems": [
+      {
+        "text": "Text checked and free from spelling, grammatical, factual and formatting errors"
+      },
+      {
+        "text": "Page titles and meta data (e.g. meta description and open graph tags) present, unique and descriptive",
+        "link": "https://htmlhead.dev"
+      },
+      {
+        "text": "Images have appropriate alt attribute (alt='' if decorative)",
+        "link": "https://moz.com/learn/seo/alt-text"
+      },
+      {
+        "text": "Schema markup included if appropriate",
+        "link": "https://schema.org/docs/gs.html"
+      },
+      {
+        "text": "Navigation easy to find and use, and all links working"
+      },
+      {
+        "text": "404 page created and serving correctly"
+      },
+      {
+        "text": "All legally required pages and statements created, depending on your industry and location. (e.g. GDPR/Cookie policy, Modern Slavery Statement etc)"
+      },
+      {
+        "text": "Footer copyright notice included, year(s) correct and creative commons license included if desired",
+        "link": "https://creativecommons.org/choose/"
+      }
+    ]
+  },
+  {
+    "title": "Communication",
+    "listItems": [
+      {
+        "text": "Forms working correctly and email notifications reaching correct people"
+      },
+      {
+        "text": "Contact details correct and easy to find"
+      },
+      {
+        "text": "Links to social media accounts present and correct"
+      }
+    ]
+  },
+  {
+    "title": "Benchmarks & Performance",
+    "listItems": [
+      {
+        "text": "Website tested and working in all targeted browsers",
+        "link": "https://www.browserstack.com/"
+      },
+      {
+        "text": "Website tested and working on mobile devices and tablets",
+        "link": "https://www.browserstack.com/"
+      },
+      {
+        "text": "All code tested and functioning correctly. Check W3C benchmarks for front end if desired.",
+        "link": "https://www.w3.org/standards/"
+      },
+      {
+        "text": "No Javascript console logs, errors or warnings"
+      },
+      {
+        "text": "Website run through Lighthouse and any performance issues resolved",
+        "link": "https://developers.google.com/web/tools/lighthouse"
+      },
+      {
+        "text": "HTML, CSS and JS files minified and concatenated where possible",
+        "link": "https://en.wikipedia.org/wiki/Minification_(programming)"
+      },
+      {
+        "text": "Images and videos adequate quality and compressed where possible"
+      },
+      {
+        "text": "Print stylesheet set up and functioning if content is likely to be printed (e.g. a recipe website)",
+        "link": "https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/"
+      }
+    ]
+  },
+  {
+    "title": "Accessibility",
+    "listItems": [
+      {
+        "text": "Website run through Lighthouse and any accessibility issues resolved",
+        "link": "https://developers.google.com/web/tools/lighthouse"
+      },
+      {
+        "text": "Links are easily recognisable and have a clear focus state",
+        "link": "https://usability.yale.edu/web-accessibility/articles/links"
+      },
+      {
+        "text": "All form fields have associated labels (not placeholder text)"
+      },
+      {
+        "text": "ARIA landmark roles used where appropriate",
+        "link": "https://www.washington.edu/accessibility/web/landmarks/"
+      },
+      {
+        "text": "Website tested and useable with a screen reader",
+        "link": "https://www.apple.com/voiceover/info/guide/_1121.html"
+      }
+    ]
+  },
+  {
+    "title": "Infrastructure",
+    "listItems": [
+      {
+        "text": "Domain name set up and DNS pointed correctly to web server (either your own or a hosted solution like Netlify)",
+        "link": "https://www.linode.com/docs/guides/dns-records-an-introduction/"
+      },
+      {
+        "text": "Server backups configured and working if required"
+      },
+      {
+        "text": "SSL certificate installed",
+        "link": "https://letsencrypt.org/about"
+      },
+      {
+        "text": "Project files integrated with version control and build/deploy paths set up",
+        "link": "https://guides.github.com/activities/hello-world/"
+      },
+      {
+        "text": "Set up an uptime monitoring service to monitor availability and be alerted if the site goes down",
+        "link": "https://uptimerobot.com/"
+      },
+      {
+        "text": "CDN and/or caching solution configured if appropriate",
+        "link": "https://www.cloudflare.com/en-gb/learning/cdn/what-is-a-cdn/"
+      }
+    ]
+  },
+  {
+    "title": "Analytics",
+    "listItems": [
+      {
+        "text": "Analytics tracking installed and working",
+        "link": "https://analytics.google.com/"
+      },
+      {
+        "text": "Event tracking set up and tracking key metrics (other than page views)",
+        "link": "https://developers.google.com/analytics/devguides/collection/gtagjs/events"
+      },
+      {
+        "text": "Search console account set up and linked",
+        "link": "https://search.google.com/search-console/about"
+      }
+    ]
+  },
+  {
+    "title": "Miscellaneous",
+    "listItems": [
+      {
+        "text": "Favicon included and linked correctly",
+        "link": "https://seranking.com/blog/what-is-a-favicon/"
+      },
+      {
+        "text": "Redirects to old pages which no longer exist set up",
+        "link": "https://developers.google.com/search/docs/advanced/crawling/301-redirects"
+      },
+      {
+        "text": "All versions of URL redirecting to same format (e.g. abc.com redirecting to www.abc.com)"
+      },
+      {
+        "text": "robots.txt file not blocking search engine spiders",
+        "link": "https://developers.google.com/search/docs/advanced/robots/intro"
+      },
+      {
+        "text": "Progressive Web App features configured if required",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+      }
+    ]
+  }
+]

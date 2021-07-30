@@ -1,0 +1,42 @@
+@import "variables";
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: 2px solid #777;
+  border-radius: 0px;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+
+  .iconWrapper {
+    position: relative;
+    left: -1px;
+  }
+
+  svg {
+    font-size: 34px;
+    color: $clr-white;
+  }
+
+  &.checked {
+    background-color: $clr-green;
+    border-color: $clr-green;
+  }
+
+  &.white {
+    border-color: $clr-white;
+    svg {
+      color: $clr-black;
+    }
+    &.checked {
+      background-color: $clr-white;
+      border-color: $clr-white;
+    }
+  }
+}
